@@ -16,3 +16,115 @@
 @import url('./badges.css');
 @import url('./back-link.css');
 @import url('./footer.css');
+.nav-list {
+  margin-left: auto;
+  margin-right: auto;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 360px);
+  grid-gap: 24px;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 24px;
+  padding-left: 0px;
+}
+.gallery-image {
+  transition: transform 0.2s ease;
+}
+.gallery-image:hover,
+.gallery-image:focus {
+  transform: scale(1.02);
+}
+* {
+  box-sizing: border-box;
+}
+.feedback-form {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  border-radius: 8px;
+  padding: 24px;
+  width: 408px;
+  height: 296px;
+  background: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  font-family: 'Montserrat', sans-serif;
+}
+.login-form-lable1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 8px;
+  width: 360px;
+  height: 72px;
+  margin-bottom: 8px;
+}
+.login-form-lable2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 8px;
+  width: 360px;
+  height: 112px;
+}
+
+.login-form-lable-input {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 8px;
+  width: 360px;
+  height: 40px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+}
+.text-form {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 8px;
+  width: 360px;
+  height: 80px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  resize: none;
+}
+.login-form-lable-input:hover,
+.login-form-lable-input:focus {
+  border: 1px solid #000;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 95px;
+  height: 40px;
+  background: #4e75ff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border: none;
+  margin-top: 16px;
+}
+.button:hover,
+.button:focus {
+  background: #6c8cff;
+}
